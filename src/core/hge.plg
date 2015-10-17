@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hge - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\mk\AppData\Local\Temp\RSP45A3.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HGEDLL" /FR"Debug/" /Fp"Debug/hge.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /QIfist /GZ /c 
+"G:\库文件\HGE\hge181\src\core\demo.cpp"
+"G:\库文件\HGE\hge181\src\core\graphics.cpp"
+"G:\库文件\HGE\hge181\src\core\ini.cpp"
+"G:\库文件\HGE\hge181\src\core\input.cpp"
+"G:\库文件\HGE\hge181\src\core\power.cpp"
+"G:\库文件\HGE\hge181\src\core\random.cpp"
+"G:\库文件\HGE\hge181\src\core\resource.cpp"
+"G:\库文件\HGE\hge181\src\core\sound.cpp"
+"G:\库文件\HGE\hge181\src\core\system.cpp"
+"G:\库文件\HGE\hge181\src\core\timer.cpp"
+]
+Creating command line "cl.exe @C:\Users\mk\AppData\Local\Temp\RSP45A3.tmp" 
+Creating temporary file "C:\Users\mk\AppData\Local\Temp\RSP45A4.tmp" with contents
+[
+user32.lib gdi32.lib advapi32.lib shell32.lib winmm.lib d3d8.lib d3dx8.lib /nologo /dll /incremental:yes /pdb:"Debug/hge.pdb" /debug /machine:I386 /def:".\hge.def" /out:"Debug/hge.dll" /implib:"Debug/hge.lib" /pdbtype:sept 
+".\Debug\adler32.obj"
+".\Debug\crc32.obj"
+".\Debug\inffast.obj"
+".\Debug\inflate.obj"
+".\Debug\inftrees.obj"
+".\Debug\ioapi.obj"
+".\Debug\trees.obj"
+".\Debug\uncompr.obj"
+".\Debug\unzip.obj"
+".\Debug\zutil.obj"
+".\Debug\demo.obj"
+".\Debug\graphics.obj"
+".\Debug\ini.obj"
+".\Debug\input.obj"
+".\Debug\power.obj"
+".\Debug\random.obj"
+".\Debug\resource.obj"
+".\Debug\sound.obj"
+".\Debug\system.obj"
+".\Debug\timer.obj"
+]
+Creating command line "link.exe @C:\Users\mk\AppData\Local\Temp\RSP45A4.tmp"
+<h3>Output Window</h3>
+Compiling...
+demo.cpp
+graphics.cpp
+ini.cpp
+input.cpp
+power.cpp
+random.cpp
+resource.cpp
+sound.cpp
+system.cpp
+timer.cpp
+Linking...
+Creating temporary file "C:\Users\mk\AppData\Local\Temp\RSP4A28.tmp" with contents
+[
+/nologo /o"Debug/hge.bsc" 
+".\Debug\adler32.sbr"
+".\Debug\crc32.sbr"
+".\Debug\inffast.sbr"
+".\Debug\inflate.sbr"
+".\Debug\inftrees.sbr"
+".\Debug\ioapi.sbr"
+".\Debug\trees.sbr"
+".\Debug\uncompr.sbr"
+".\Debug\unzip.sbr"
+".\Debug\zutil.sbr"
+".\Debug\demo.sbr"
+".\Debug\graphics.sbr"
+".\Debug\ini.sbr"
+".\Debug\input.sbr"
+".\Debug\power.sbr"
+".\Debug\random.sbr"
+".\Debug\resource.sbr"
+".\Debug\sound.sbr"
+".\Debug\system.sbr"
+".\Debug\timer.sbr"]
+Creating command line "bscmake.exe @C:\Users\mk\AppData\Local\Temp\RSP4A28.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+hge.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
